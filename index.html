@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>롯데리아 모바일 반응형웹사이트</title>
+    <!-- 초기화 -->
+    <link rel="stylesheet" href="./css/reset.css" type="text/css">
+    <!-- 모바일 화면서식 -->
+    <link rel="stylesheet" href="./css/mobile.css" type="text/css">
+    <!-- 폰트 서식 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <!-- 기본서식 -->
+    <link rel="stylesheet" href="./css/base.css" type="text.css">
+    <!-- 플렉스 슬라이드 서식 -->
+    <link rel="stylesheet" href="./css/flexslider.css" type="text/css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+
+    <script src="./script/jquery.flexslider.js"></script>
+
+    <script src="./script/prefixfree.min.js"></script>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap');
+    </style>
+</head>
+<body>
+    <input type="checkbox" id="toggle">
+    <!-- 헤더영역 -->
+    <header>
+        <div class="header_inner">
+            <h1>
+                <a href="index.html" title="메인페이지로 바로가기"></a>
+                <img src="./images/logo.jpg" alt="상단로고">
+            </h1>
+            <label for="toggle" class="total_btn">
+                <i class="fas fa-bars"></i>
+            </label>
+        </div>
+        <nav class="nav_wrap">
+            <label for="toggle" class="c_btn">
+              <i class="fas fa-times"></i>
+            </label>
+            <div class="search">
+                <input type="text" placeholder="검색어를 입력해주세요">
+                <i class="fas fa-search"></i>
+              </div>
+
+                
+    </header>
+
+
+
+    <main>
+        <article>
+            <h2>메인 슬라이드</h2>
+            <div class="flexslider mslide">
+                <ul class="slides">
+                  <li><a href="#" title="이벤트1"><img src="./images/mobile slide01.jpg" alt="메인01"></a></li>
+
+                  <li><a href="#" title="이벤트2"><img src="./images/mobile slide02.jpg" alt="메인02"></a></li>
+
+                  <li><a href="#" title="이벤트3"><img src="./images/mobile slide03.jpg" alt="메인03"></a></li>
+
+                  <li><a href="#" title="이벤트4"><img src="./images/mobile slide04.jpg" alt="메인04"></a></li>
+
+                  <li><a href="#" title="이벤트5"><img src="./images/mobile slide05.jpg" alt="메인05"></a></li>
+                
+                </ul>
+              </div>
+        </article>  
+        
+        <article class="set">
+            <h2 class="mnew">세트 메뉴</h2>
+                <ul class="slide">
+                    <li><a href="#" title="세트메뉴" class="burger1"><img src="./images/burger01.png" alt="더블 한우불고기 세트"></a><p>더블 한우불고기 세트</p><p class="price">13,700원</p></li>
+                        
+                    <li><a href="#" title="세트메뉴" class="burger2"><img src="./images/burger02.png" alt="한우 트러플 머쉬룸 세트"></a><p>한우 트러플 머쉬룸 세트</p><p class="price">11,000원</p></li>
+                    
+                    <li><a href="#" title="세트메뉴" class="chicken1"><img src="./images/chicken01.png" alt="1인혼닭세트"></a><p>1인혼닭세트</p><p class="price">11,600원</p></li>
+
+                    <li><a href="#" title="세트메뉴" class="chicken2"><img src="./images/chicken02.png" alt="패밀리팩"></a><p>패밀리팩</p><p class="price">14,300원</p></li>
+                </ul>
+        </article>
+
+        <article class="set">
+            <h2 class="mnew">인기 메뉴</h2>
+            <ul class="slide">
+                <li><a href="#" title="세트메뉴" class="burger1"><img src="./images/burger03.png" alt="새우버거"></a><p>새우버거</p><p class="price">4,500원</p></li>
+                    
+                <li><a href="#" title="세트메뉴" class="burger2"><img src="./images/burger04.png" alt="더블X2"></a><p>더블X2</p><p class="price">6,500원</p></li>
+                
+                <li><a href="#" title="세트메뉴" class="chicken1"><img src="./images/burger05.png" alt="원조 빅불"></a><p>원조 빅불</p><p class="price">6,700원</p></li>
+
+                <li><a href="#" title="세트메뉴" class="chicken2"><img src="./images/burger06.png" alt="데리버거"></a><p>데리버거</p><p class="price">2,900원</p></li>
+            </ul>
+        </article>
+
+        <article class="set">
+            <h2 class="mnew">사이드 메뉴</h2>
+            <ul class="slide">
+                <li><a href="#" title="세트메뉴" class="burger1"><img src="./images/side01.png" alt="모짜크림치즈볼"></a><p>모짜크림치즈볼</p><p class="price">2,200원</p></li>
+                    
+                <li><a href="#" title="세트메뉴" class="burger2"><img src="./images/side02.png" alt="롱 치즈스틱"></a><p>롱 치즈스틱</p><p class="price">1,900원</p></li>
+                
+                <li><a href="#" title="세트메뉴" class="chicken1"><img src="./images/side03.png" alt="포테이토"></a><p>포테이토</p><p class="price">1,700원</p></li>
+
+                <li><a href="#" title="세트메뉴" class="chicken2"><img src="./images/side04.png" alt="웨지포테이토"></a><p>웨지포테이토</p><p class="price">2,000원</p></li>
+            </ul>
+        </article>
+
+        <article class="map">
+            <h2 class="m_name">매장 찾기</h2>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25301.14757416308!2d126.98633094527172!3d37.563463450792064!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca2f1f81f8ed5%3A0x269c83b70b0560a3!2z66Gv642w66as7JWEIOyGjOqztTLtmLjsoJA!5e0!3m2!1sko!2skr!4v1663914484697!5m2!1sko!2skr" width="100%" height="298px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </article>
+
+
+        <iframe width="100%" height="315" src="https://www.youtube.com/embed/tRk5raNnuyI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    <ul class="l_img">
+        <li><a href="#" title="lotte eatz" class="l_eatz"><img src="./images/eatz logo.jpg" alt=""></a></li>
+    </ul>    
+
+    <ul class="brand"> 
+        <li><img src="./images/m_brand.jpg" alt="" class="img"></li>
+        <span class="text">롯데리아는 국내 패스트푸드 업계의 선두 기업으로 꾸준한 경영 혁신과 과감한 투자, 우리 입맛에 맞는 새로운 상품 개발로 업계 신화를 창조해가</span>
+        <span class="text1">자세히 보기</span> 
+    </ul>
+
+    <a href="#" title="m_sns" class="sns"><img src="./images/mobile sns.jpg" alt="모바일 sns"></a>
+    </main>
+
+
+
+    <footer>
+        <a href="#" title="logo" class="f_logo"><img src="./images/logo2.png" alt="하단 로고"></a>
+    </footer>
+
+
+
+    <script>$(window).load(function() {
+    $('.flexslider').flexslider({
+        animation: "slide"
+    //   animation: "fade"
+    });
+    });</script>     
+</body>
+</html>

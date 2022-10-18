@@ -1,0 +1,35 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500&display=swap');
+
+
+
+#toggle{display:none;}
+
+body{
+    text-decoration-color: #333333;
+}
+.nav_wrap{
+    background-color:rgba(0,0,0,.8);
+    width:100%;height:100%;
+    position:fixed;
+    top:0px;right:-100%;
+    z-index:1000;
+    transition:0.5s;
+  }
+  #toggle:checked + header > .nav_wrap{
+    right:0px;
+  }
+  
+  .c_btn{
+    color:#ffffff;
+    font-size:34px;
+    position:absolute;
+    left:35px;top:20px;
+  }
+  .gnb{
+    background-color:#891111;
+    width:75%;height:100%;
+    position:absolute;
+    top:0px;right:0px;
+  }
