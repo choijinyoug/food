@@ -113,11 +113,18 @@ main{
     text-align: center;
     padding-top:20px;
 }
-.set > h2{
+.set .mnew{
     text-align: center;
     width: 200px;
     padding: 15px 0px;
     color: #ffffff;
+}
+.set .mnew2{
+    text-align: center;
+    width: 100px;
+    padding: 15px 0px;
+    color: #ffffff;
+    font-size: 12px;
 }
 .set > ul p{
     font-size:0.75rem;
@@ -133,6 +140,12 @@ main{
     text-align: center;
     border-radius: 100px;
     margin:10px auto;
+}
+.mnew2{
+    background-color: #ea9926;
+    text-align: center;
+    border-radius: 100px;
+    margin:0px auto;
 }
 .map{
     width:82%;
